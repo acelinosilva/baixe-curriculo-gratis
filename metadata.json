@@ -1,0 +1,6 @@
+{
+  "name": "Baixe Currículo Grátis",
+  "description": "Modelos de currículos profissionais, editáveis e gratuitos para download rápido em Word e PDF. Editor online intuitivo com exportação de alta qualidade e compatibilidade ATS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
