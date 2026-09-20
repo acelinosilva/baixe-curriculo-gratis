@@ -76,7 +76,7 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({
 
     const currentUrl = typeof window !== 'undefined' 
       ? window.location.origin + '/artigos/' + article.slug 
-      : 'https://baexecurriculogratis.com.br/artigos/' + article.slug;
+      : 'https://baixecurriculogratis.vercel.app/artigos/' + article.slug;
 
     const schemaData = {
       '@context': 'https://schema.org',
@@ -89,14 +89,14 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({
       'author': {
         '@type': 'Organization',
         'name': article.author || 'Equipe Especialista em RH do Baixe Currículo Grátis',
-        'url': 'https://baexecurriculogratis.com.br'
+        'url': 'https://baixecurriculogratis.vercel.app'
       },
       'publisher': {
         '@type': 'Organization',
         'name': 'Baixe Currículo Grátis',
         'logo': {
           '@type': 'ImageObject',
-          'url': 'https://baexecurriculogratis.com.br/favicon.ico'
+          'url': 'https://baixecurriculogratis.vercel.app/logo.svg'
         }
       },
       'mainEntityOfPage': {
@@ -131,7 +131,7 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({
 
   const articleUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/artigos/${article.slug}`
-    : `https://baexecurriculogratis.com.br/artigos/${article.slug}`;
+    : `https://baixecurriculogratis.vercel.app/artigos/${article.slug}`;
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(articleUrl);

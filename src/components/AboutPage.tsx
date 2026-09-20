@@ -54,7 +54,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({
 
     const currentUrl = typeof window !== 'undefined' 
       ? window.location.origin + '/sobre-nos' 
-      : 'https://baexecurriculogratis.com.br/sobre-nos';
+      : 'https://baixecurriculogratis.vercel.app/sobre-nos';
 
     const schemaData = {
       '@context': 'https://schema.org',
@@ -67,7 +67,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({
         'name': 'Baixe Currículo Grátis',
         'alternateName': 'BCG',
         'email': 'acewebdf@gmail.com',
-        'url': 'https://baexecurriculogratis.com.br',
+        'url': 'https://baixecurriculogratis.vercel.app',
         'description': 'Plataforma brasileira gratuita de modelos de currículo editáveis em Word e PDF com editor online sem necessidade de cadastro.'
       }
     };

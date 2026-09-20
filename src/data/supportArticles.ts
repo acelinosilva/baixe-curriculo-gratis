@@ -201,5 +201,204 @@ export const supportArticles: SupportArticle[] = [
       'Inclua portfólios, certificações recentes e estudos de caso práticos.'
     ],
     relatedTemplateSlug: 'curriculo-criativo'
+  },
+  {
+    id: 'art-7',
+    slug: 'curriculo-em-pdf-ou-word-qual-e-melhor',
+    title: 'Currículo em PDF ou Word: Qual é o Melhor Formato para Enviar?',
+    category: 'Formatos & Download',
+    readTime: '5 min de leitura',
+    datePublished: '2026-03-12',
+    author: 'Equipe de Carreira BCG',
+    metaTitle: 'Currículo em PDF ou Word: Qual o Melhor Formato para Enviar? | Baixe Currículo Grátis',
+    metaDescription: 'Descubra definitivamente se é melhor enviar seu currículo em PDF ou Word (.docx). Veja regras de compatibilidade com ATS, formatação visual e segurança dos seus dados.',
+    keywords: [
+      'curriculo em pdf ou word',
+      'melhor formato para enviar curriculo',
+      'enviar curriculo em pdf ou docx',
+      'curriculo word ou pdf para ats',
+      'como salvar curriculo para enviar',
+      'baixe curriculo gratis'
+    ],
+    summary: 'Descubra definitivamente quando salvar e enviar seu currículo em PDF de alta resolução ou em Word (.docx), analisando compatibilidade com ATS, formatação visual e segurança dos seus dados.',
+    content: [
+      'Uma das dúvidas mais comuns entre candidatos de todas as áreas é: devo enviar meu currículo salvo em formato PDF ou em documento do Word (.doc / .docx)? A resposta depende do canal de envio e das exigências explícitas do recrutador ou da plataforma de vagas.',
+      'Por que o PDF é o Padrão Recomendado em 90% dos casos: O formato PDF (Portable Document Format) garante que o layout, as fontes, o espaçamento e as cores que você vê na sua tela cheguem exatamente iguais para o recrutador, independentemente se ele abrir o arquivo no celular, Mac, Windows ou Linux. No Word, diferenças de versão ou fontes não instaladas costumam desalinhar títulos e quebrar tabelas.',
+      'O mito sobre robôs ATS e arquivos PDF: No passado, alguns sistemas legados tinham dificuldade para ler PDFs. Hoje, ferramentas modernas como Gupy, Kenoby, Workday, Solides e LinkedIn leem perfeitamente arquivos PDF que possuam texto selecionável (vetorial). No Baixe Currículo Grátis, todos os PDFs gerados possuem texto 100% pesquisável e legível por qualquer scanner.',
+      'Quando o Word (.docx) é indispensável: Algumas consultorias de RH, agências de recolocação e headhunters solicitam especificamente o arquivo em Word porque precisam editar o documento para remover seus contatos diretos e inserir o logotipo da consultoria antes de apresentar seu perfil ao cliente contratante.',
+      'Regras de ouro de nomenclatura e tamanho: Nomeie o arquivo de forma clara e profissional, como "Curriculo_SeuNome_Cargo.pdf" (nunca envie "curriculo_final_versao2.pdf"). Certifique-se de que o arquivo final tenha menos de 2 MB para não travar servidores de e-mail corporativo.'
+    ],
+    keyTakeaways: [
+      'Envie em PDF por padrão para preservar o design, alinhamento e tipografia intactos.',
+      'Envie em Word (.docx) apenas quando a vaga ou consultoria de recrutamento exigir expressamente.',
+      'Nomeie o arquivo profissionalmente: "Curriculo_NomeSobrenome_CargoDesejado.pdf".'
+    ],
+    relatedTemplateSlug: 'curriculo-simples'
+  },
+  {
+    id: 'art-8',
+    slug: 'como-colocar-cursos-e-certificados-no-curriculo',
+    title: 'Como Colocar Cursos e Certificados no Currículo (Gratuitos, EAD e Extensão)',
+    category: 'Formação & Cursos',
+    readTime: '5 min de leitura',
+    datePublished: '2026-03-14',
+    author: 'Equipe de Carreira BCG',
+    metaTitle: 'Como Colocar Cursos e Certificados no Currículo | Baixe Currículo Grátis',
+    metaDescription: 'Aprenda onde e como incluir cursos livres, certificações técnicas e graduações EAD no currículo com formato padronizado e estratégico para vagas de emprego.',
+    keywords: [
+      'como colocar cursos no curriculo',
+      'onde colocar certificados no curriculo',
+      'cursos complementares curriculo',
+      'cursos ead no curriculo',
+      'como formatar cursos livres no curriculo',
+      'baixe curriculo gratis'
+    ],
+    summary: 'Guia passo a passo para organizar cursos livres, certificações técnicas e graduações no currículo, destacando carga horária, instituição e relevância direta para a vaga.',
+    content: [
+      'Cursos extracurriculares, certificações e workshops são ferramentas poderosas para demonstrar que você é um profissional proativo, atualizado e comprometido com o aprendizado contínuo (lifelong learning). Porém, colocá-los de forma desordenada pode poluir visualmente seu currículo.',
+      'Estrutura padrão de formatação: Apresente cada curso em uma linha clara contendo: Nome do Curso — Instituição Emissora — Ano de Conclusão — Carga Horária. Exemplo: "Power BI para Tomada de Decisão — Fundação Bradesco / Escola Virtual (2025) — 40h".',
+      'Separe Formação Acadêmica de Cursos Complementares: A seção de Formação Acadêmica (ou Educação) deve conter apenas Ensino Médio, Cursos Técnicos, Graduação, Pós-Graduação e MBA. Cursos rápidos de curta duração (menos de 100 horas) devem figurar em uma seção dedicada intitulada "Cursos Complementares" ou "Certificações".',
+      'Filtro de Relevância Estratégica: Não liste todos os cursos que você já fez na vida desde a adolescência. Selecione os 3 a 6 cursos mais relevantes e recentes que tenham ligação direta com os requisitos da vaga que você está disputando.',
+      'Plataformas valorizadas pelo mercado: Cursos com certificados de instituições reconhecidas como Sebrae, Senai, FGV Online, Fundação Bradesco, Alura, Coursera, HubSpot Academy e Google Atelier Digital têm excelente aceitação entre recrutadores.'
+    ],
+    keyTakeaways: [
+      'Utilize o formato padrão: [Nome do Curso] — [Instituição] — [Ano] — [Carga Horária].',
+      'Mantenha uma seção separada de "Cursos Complementares" para treinamentos de curta duração.',
+      'Priorize cursos alinhados aos requisitos técnicos da vaga que você deseja disputar.'
+    ],
+    relatedTemplateSlug: 'curriculo-moderno'
+  },
+  {
+    id: 'art-9',
+    slug: 'objetivo-profissional-exemplos-prontos',
+    title: 'Objetivo Profissional para Currículo: 25 Exemplos Prontos por Área',
+    category: 'Modelos & Exemplos',
+    readTime: '6 min de leitura',
+    datePublished: '2026-03-16',
+    author: 'Equipe de Carreira BCG',
+    metaTitle: 'Objetivo Profissional para Currículo: Exemplos Prontos | Baixe Currículo Grátis',
+    metaDescription: 'Veja fórmulas práticas e dezenas de exemplos prontos de objetivo profissional para primeiro emprego, administrativo, vendas, tecnologia, logística e atendimento.',
+    keywords: [
+      'objetivo profissional exemplos prontos',
+      'o que colocar no objetivo do curriculo',
+      'objetivo curriculo primeiro emprego',
+      'objetivo curriculo administrativo',
+      'objetivo curriculo atendimento e vendas',
+      'baixe curriculo gratis'
+    ],
+    summary: 'Confira fórmulas práticas e dezenas de exemplos prontos de objetivo profissional para primeiro emprego, transição de carreira, administrativo, vendas, tecnologia e atendimento.',
+    content: [
+      'O Objetivo Profissional fica posicionado logo no topo do currículo e é uma das primeiras frases que o recrutador lê. Seu papel é deixar cristalino em qual área ou cargo você deseja atuar, economizando o tempo da triagem inicial.',
+      'A Fórmula Ideal em 1 a 2 Frases: [Cargo ou Área Desejada] + [Nível de Experiência ou Especialidade] + [Principal Habilidade ou Valor que Pretende Entregar à Empresa]. Evite clichês vazios como "busco uma oportunidade para demonstrar meu potencial e crescer junto à instituição".',
+      'Exemplos Prontos para Primeiro Emprego e Jovem Aprendiz: "Objetivo: Atuar como Jovem Aprendiz ou Auxiliar Administrativo, aplicando conhecimentos em Pacote Office, organização de rotinas e atendimento cordial ao público." / "Objetivo: Ingressar no mercado de trabalho como Operador de Caixa ou Atendente de Loja, com facilidade em relacionamento interpessoal e pontualidade."',
+      'Exemplos para Administrativo e Financeiro: "Objetivo: Assistente Administrativo com 3 anos de experiência em contas a pagar, faturamento e conciliação bancária, focado na otimização de fluxo de caixa e rotinas fiscais."',
+      'Exemplos para Vendas e Comercial: "Objetivo: Vendedor Interno / Representante Comercial com sólida experiência em prospecção B2B, negociação e metas de fechamento, buscando expandir a carteira de clientes no setor de tecnologia."',
+      'Exemplos para Tecnologia e Suporte: "Objetivo: Desenvolvedor Front-end Júnior (React / TypeScript), buscando integrar a equipe de desenvolvimento para construir interfaces responsivas, acessíveis e de alta performance."'
+    ],
+    keyTakeaways: [
+      'Seja direto: mencione o cargo ou departamento exato que deseja ocupar.',
+      'Evite clichês genéricos que não explicam o que você realmente sabe fazer.',
+      'Mantenha o texto com no máximo 2 a 3 linhas para garantir leitura rápida.'
+    ],
+    relatedTemplateSlug: 'curriculo-primeiro-emprego'
+  },
+  {
+    id: 'art-10',
+    slug: 'curriculo-com-foto-deve-colocar-ou-nao',
+    title: 'Currículo com Foto: Deve ou Não Colocar? Regras de RH e LGPD',
+    category: 'Dicas de RH',
+    readTime: '4 min de leitura',
+    datePublished: '2026-03-17',
+    author: 'Equipe de Carreira BCG',
+    metaTitle: 'Currículo com Foto: Deve ou Não Colocar? Regras de RH | Baixe Currículo Grátis',
+    metaDescription: 'Descubra quando colocar foto no currículo e quando omitir. Regras de Recursos Humanos no Brasil, Lei Geral de Proteção de Dados (LGPD) e dicas para fotos profissionais.',
+    keywords: [
+      'curriculo com foto ou sem foto',
+      'deve colocar foto no curriculo',
+      'quando colocar foto no curriculo',
+      'regras foto curriculo rh',
+      'foto profissional para curriculo celular',
+      'baixe curriculo gratis'
+    ],
+    summary: 'Entenda a regra geral do mercado brasileiro sobre fotos no currículo, quando ela é necessária (vagas de atendimento presencial, moda, eventos) e como produzir uma foto profissional.',
+    content: [
+      'A presença de foto no currículo é um dos temas que mais geram dúvidas entre os profissionais brasileiros. A regra geral consolidada pelas melhores práticas de Recursos Humanos é: não coloque foto no currículo, a menos que o anúncio da vaga solicite expressamente.',
+      'Por que o mercado prefere currículos sem foto: Recrutadores e empresas modernas buscam processos seletivos mais justos e inclusivos, minimizando vieses inconscientes de idade, aparência ou gênero. Além disso, omitir a foto economiza espaço valioso para detalhar suas competências e resultados.',
+      'Exceções em que a foto é solicitada: Vagas com forte componente de imagem pública e representação de marca (recepcionistas bilíngues de alta hotelaria, comissários de bordo, promotores de eventos, modelos, atores e profissionais de estética). Quando o anúncio pedir foto, inclua-a.',
+      'Como tirar uma foto profissional impecável usando o celular: Se você for colocar foto (ou atualizar seu perfil no LinkedIn), posicione o celular na altura dos olhos, utilize iluminação natural frontal (próximo a uma janela), utilize um fundo neutro e limpo (parede branca ou cinza claro), vista uma roupa profissional alinhada à sua área e mantenha uma expressão simpática e acolhedora.',
+      'O que NUNCA usar como foto de currículo: Selfies no espelho, fotos com óculos escuros, recortes de fotos de festas familiares com braços de outras pessoas visíveis, poses informais em praia ou fundos poluídos.'
+    ],
+    keyTakeaways: [
+      'Regra geral: só inclua foto se o anúncio da vaga solicitar expressamente.',
+      'No LinkedIn a foto é 100% indispensável; no currículo em PDF/Word é opcional.',
+      'Se a vaga pedir foto, use iluminação neutra, fundo liso e vestimenta corporativa discreta.'
+    ],
+    relatedTemplateSlug: 'curriculo-com-foto'
+  },
+  {
+    id: 'art-11',
+    slug: 'habilidades-para-curriculo-hard-soft-skills',
+    title: 'Habilidades para Currículo: As 20 Hard e Soft Skills Mais Valorizadas',
+    category: 'Estratégia de Carreira',
+    readTime: '6 min de leitura',
+    datePublished: '2026-03-18',
+    author: 'Equipe de Carreira BCG',
+    metaTitle: 'Habilidades para Currículo: Hard e Soft Skills Valorizadas | Baixe Currículo Grátis',
+    metaDescription: 'Descubra a diferença entre Hard e Soft Skills e veja a lista das 20 habilidades mais procuradas pelas empresas em 2026 para turbinar seu currículo.',
+    keywords: [
+      'habilidades para curriculo',
+      'hard skills e soft skills exemplos',
+      'competencias profissionais curriculo',
+      'habilidades mais valorizadas empresas',
+      'o que colocar em habilidades no curriculo',
+      'baixe curriculo gratis'
+    ],
+    summary: 'Aprenda a balancear habilidades técnicas (Hard Skills) e competências comportamentais (Soft Skills) no seu currículo para se destacar nos filtros automatizados e nas entrevistas.',
+    content: [
+      'Em qualquer processo seletivo, os recrutadores avaliam dois pilares fundamentais: o que você sabe fazer tecnicamente (Hard Skills) e como você se comporta e trabalha com outras pessoas no dia a dia (Soft Skills). O equilíbrio entre esses dois blocos é o segredo de um currículo de alto impacto.',
+      'O que são Hard Skills: São competências técnicas mensuráveis que você adquire através de estudos, cursos e treinamento prático. Exemplos valorizados: Excel Avançado (PROCV, VBA), Análise de Dados em Power BI/SQL, Gestão Contábil/Fiscal, Fluência em Idiomas, Redação Comercial, Metodologias Ágeis (Scrum/Kanban) e Programação.',
+      'O que são Soft Skills: São atributos comportamentais e traços de personalidade que determinam sua capacidade de liderar, resolver conflitos e prosperar em equipe. Exemplos mais cobiçados: Comunicação Assertiva, Inteligência Emocional, Resolução de Problemas Complexos, Pensamento Crítico, Adaptabilidade a Mudanças e Gestão de Tempo.',
+      'Como comprovar Soft Skills no currículo: Em vez de apenas listar palavras soltas como "proativo" e "líder", demonstre essas características no relato das suas experiências: "Liderei equipe multifuncional de 5 pessoas na entrega de projeto 2 semanas antes do prazo".',
+      'Quantidade ideal na seção de Habilidades: Selecione entre 6 e 10 competências que combinem as exigências técnicas prioritárias da vaga com suas principais forças comportamentais.'
+    ],
+    keyTakeaways: [
+      'Combine Hard Skills (ferramentas e técnicas) com Soft Skills (comportamento e comunicação).',
+      'Evite listas genéricas sem contexto: comprove suas habilidades através de resultados.',
+      'Alinhe a seleção de habilidades aos termos solicitados no anúncio da vaga.'
+    ],
+    relatedTemplateSlug: 'curriculo-ti'
+  },
+  {
+    id: 'art-12',
+    slug: 'como-fazer-carta-de-apresentacao',
+    title: 'Como Fazer uma Carta de Apresentação Profissional + Modelos Prontos',
+    category: 'Processo Seletivo',
+    readTime: '5 min de leitura',
+    datePublished: '2026-03-19',
+    author: 'Equipe de Carreira BCG',
+    metaTitle: 'Como Fazer Carta de Apresentação Profissional + Modelos | Baixe Currículo Grátis',
+    metaDescription: 'Aprenda a redigir uma carta de apresentação profissional e saiba o que escrever no corpo do e-mail ao enviar seu currículo com modelos prontos para copiar.',
+    keywords: [
+      'como fazer carta de apresentacao',
+      'modelo de carta de apresentacao',
+      'texto para enviar curriculo por email',
+      'carta de apresentacao simples e curta',
+      'modelo mensagem envio de curriculo',
+      'baixe curriculo gratis'
+    ],
+    summary: 'Aprenda a redigir uma carta de apresentação convincente ou o texto do e-mail ao enviar seu currículo para garantir que os recrutadores abram seu anexo com prioridade.',
+    content: [
+      'Ao se candidatar por e-mail ou em plataformas que possuem campo de texto aberto, nunca envie uma mensagem em branco apenas com o arquivo anexado. Uma carta de apresentação profissional ou um e-mail bem escrito serve como cartão de visitas e desperta a curiosidade do recrutador para ler seu currículo com atenção.',
+      'Estrutura do Assunto do E-mail: Um assunto mal formatado faz sua mensagem ser ignorada ou cair no spam. Utilize a fórmula: "Candidatura: [Nome da Vaga] — [Seu Nome Completo] — [Código da Vaga, se houver]". Exemplo: "Candidatura: Assistente Administrativo — Lucas Andrade Santos".',
+      'Estrutura em 3 Parágrafos Rápidos: 1) Apresentação e indicação da vaga pretendida; 2) Resumo das suas principais qualificações e resultados que respondem aos desafios da empresa; 3) Encerramento cortês reforçando sua disponibilidade para entrevista e seus canais de contato direto.',
+      'Modelo Pronto para E-mail: "Prezado(a) [Nome do Recrutador ou Equipe de RH], Gostaria de submeter meu currículo para a vaga de [Cargo], anunciada no [LinkedIn/Portal de Vagas]. Com [X anos] de experiência em [Sua Área], atuei em projetos focados em [Resultado Principal]. Acredito que meu perfil está alinhado aos objetivos da empresa. Meu currículo completo segue em anexo em formato PDF. Estou à disposição para uma entrevista. Atenciosamente, [Seu Nome] — [Telefone / WhatsApp]."',
+      'Dica final de etiqueta profissional: Revise a grafia do nome da empresa e do cargo antes do envio e nunca coloque todos os recrutadores em cópia aberta (CC).'
+    ],
+    keyTakeaways: [
+      'Nunca envie um e-mail de candidatura sem texto explicativo no corpo da mensagem.',
+      'Estruture o assunto com clareza: "Candidatura: Cargo Pretendido — Seu Nome".',
+      'Mantenha a mensagem curta (2 a 3 parágrafos) e anexe o currículo em formato PDF.'
+    ],
+    relatedTemplateSlug: 'curriculo-executivo'
   }
 ];

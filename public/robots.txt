@@ -1,0 +1,23 @@
+# Robots.txt for Baixe Currículo Grátis (BCG)
+# https://baixecurriculogratis.vercel.app
+
+User-agent: *
+Allow: /
+
+# Googlebot specific optimizations
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /favicon.svg
+Allow: /logo.svg
+Allow: /
+
+# Disallow indexing of internal development artifacts or query loops if needed
+Disallow: /*?preview=*
+
+# Canonical XML Sitemap
+Sitemap: https://baixecurriculogratis.vercel.app/sitemap.xml
+
+# Host declaration
+Host: https://baixecurriculogratis.vercel.app

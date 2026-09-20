@@ -68,7 +68,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
 
     const currentUrl = typeof window !== 'undefined' 
       ? window.location.origin + '/contato' 
-      : 'https://baexecurriculogratis.com.br/contato';
+      : 'https://baixecurriculogratis.vercel.app/contato';
 
     const schemaData = {
       '@context': 'https://schema.org',
@@ -80,7 +80,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
         '@type': 'Organization',
         'name': 'Baixe Currículo Grátis',
         'email': recipientEmail,
-        'url': 'https://baexecurriculogratis.com.br'
+        'url': 'https://baixecurriculogratis.vercel.app'
       }
     };
     scriptTag.text = JSON.stringify(schemaData);
@@ -127,7 +127,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
       `MENSAGEM:\n` +
       `${formData.message}\n` +
       `-----------------------------------------\n\n` +
-      `Enviado a partir de: https://baexecurriculogratis.com.br/contato`
+      `Enviado a partir de: https://baixecurriculogratis.vercel.app/contato`
     );
 
     const mailtoUrl = `mailto:${recipientEmail}?subject=${emailSubject}&body=${emailBody}`;

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Página Inicial / Catálogo de Modelos e Editor -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://baixecurriculogratis.vercel.app/logo.svg</image:loc>
+      <image:title>Baixe Currículo Grátis - Modelos Profissionais Editáveis</image:title>
+      <image:caption>Modelos de currículos profissionais prontos para preencher e baixar em PDF e Word</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Página Sobre Nós / Propósito & Segurança LGPD -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/sobre-nos</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Página de Contato / Suporte -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/contato</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Artigo 1: Primeiro Emprego Sem Experiência -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/como-fazer-curriculo-sem-experiencia</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 2: 7 Erros Comuns que Eliminam Candidatos -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/erros-comuns-no-curriculo</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 3: Como Descrever Experiência Profissional e Resultados -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/como-descrever-experiencia-profissional</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 4: Palavras-chave no Currículo e Robôs ATS -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/palavras-chave-para-curriculo</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 5: Como se Preparar para Entrevistas de Emprego (Método STAR) -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/como-se-preparar-para-entrevistas-de-emprego</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 6: Transição de Carreira: Do Zero para Nova Área -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/transicao-de-carreira-como-fazer-curriculo</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 7: Currículo em PDF ou Word: Qual o Melhor Formato -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/curriculo-em-pdf-ou-word-qual-e-melhor</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 8: Como Colocar Cursos e Certificados no Currículo -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/como-colocar-cursos-e-certificados-no-curriculo</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 9: Objetivo Profissional: 25 Exemplos Prontos por Área -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/objetivo-profissional-exemplos-prontos</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 10: Currículo com Foto: Regras de RH e LGPD -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/curriculo-com-foto-deve-colocar-ou-nao</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 11: Habilidades para Currículo: Hard e Soft Skills -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/habilidades-para-curriculo-hard-soft-skills</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artigo 12: Como Fazer Carta de Apresentação Profissional -->
+  <url>
+    <loc>https://baixecurriculogratis.vercel.app/artigos/como-fazer-carta-de-apresentacao</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
