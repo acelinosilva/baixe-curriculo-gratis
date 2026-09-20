@@ -9,6 +9,7 @@ import {
   HelpCircle, 
   MessageSquare 
 } from 'lucide-react';
+import { BrandLogo } from './BrandLogo';
 
 interface FooterProps {
   onNavigate: (sectionId: string) => void;
@@ -67,19 +68,13 @@ export const Footer: React.FC<FooterProps> = ({
           
           {/* Col 1 & 2: Branding & Mission & Share */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-700 flex items-center justify-center text-white font-black text-base shadow-md">
-                BCG
-              </div>
-              <div>
-                <h3 className="text-white font-extrabold text-lg tracking-tight leading-none">
-                  Baixe Currículo Grátis
-                </h3>
-                <span className="text-[11px] text-emerald-400 font-medium mt-0.5 block">
-                  Modelos Profissionais e Editáveis em Word e PDF
-                </span>
-              </div>
-            </div>
+            <BrandLogo 
+              onClick={() => onNavigate('hero')} 
+              size="lg" 
+              theme="dark" 
+              showSubtitle={true} 
+              showBadge={true} 
+            />
 
             <p className="text-slate-400 leading-relaxed max-w-sm">
               Nossa missão é democratizar o acesso a currículos de alto padrão e compatíveis com robôs de triagem (ATS). 

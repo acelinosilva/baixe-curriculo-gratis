@@ -9,6 +9,7 @@ import {
   BookOpen,
   MessageSquare
 } from 'lucide-react';
+import { BrandLogo } from './BrandLogo';
 
 interface HeaderProps {
   onNavigate: (sectionId: string) => void;
@@ -68,33 +69,15 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate, onOpenFeedback }) =>
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20 gap-2">
           
-          {/* Logo with BCG Abbreviation and Full SEO Name */}
-          <div 
-            onClick={() => onNavigate('hero')}
-            className="flex items-center gap-2 sm:gap-3 cursor-pointer group min-w-0"
-          >
-            {/* BCG Badge Icon */}
-            <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-emerald-600 to-teal-800 flex items-center justify-center text-white font-black tracking-tight text-sm sm:text-lg shadow-md group-hover:scale-105 transition-transform duration-200 shrink-0">
-              BCG
-            </div>
-            
-            <div className="flex flex-col min-w-0">
-              <div className="flex items-center gap-1.5">
-                <span className="font-extrabold text-base sm:text-xl text-slate-900 tracking-tight leading-none truncate">
-                  Baixe Currículo Grátis
-                </span>
-                <span className="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-1.5 py-0.5 rounded-full uppercase tracking-wider hidden md:inline-block shrink-0">
-                  OFICIAL
-                </span>
-              </div>
-              <span className="text-xs text-slate-500 font-medium tracking-normal mt-0.5 truncate hidden sm:block">
-                Modelos Profissionais, Editáveis & ATS Friendly
-              </span>
-              <span className="text-[10px] text-slate-500 font-medium tracking-normal sm:hidden truncate">
-                Modelos Editáveis & ATS
-              </span>
-            </div>
-          </div>
+          {/* Professional Brand Logo */}
+          <BrandLogo 
+            onClick={() => onNavigate('hero')} 
+            size="md" 
+            theme="light" 
+            showSubtitle={true}
+            showBadge={true}
+            className="min-w-0"
+          />
 
           {/* Desktop Nav Links */}
           <nav className="hidden lg:flex items-center space-x-1 xl:space-x-2">

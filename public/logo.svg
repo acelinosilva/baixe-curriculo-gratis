@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 180" width="820" height="180" fill="none">
+  <defs>
+    <!-- Background Gradient for Icon -->
+    <linearGradient id="logo-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Paper Gradient -->
+    <linearGradient id="logo-paper-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <!-- Folded Corner Gradient -->
+    <linearGradient id="logo-fold-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+
+    <!-- Badge Gradient -->
+    <linearGradient id="logo-badge-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="logo-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#064E3B" flood-opacity="0.3" />
+    </filter>
+
+    <filter id="logo-badge-shadow" x="-20%" y="-20%" width="150%" height="150%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#064E3B" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- ICON SYMBOL (Left: x=15 to 155, y=20 to 160) -->
+  <g transform="translate(15, 20)">
+    <!-- Squircle Background -->
+    <rect x="0" y="0" width="140" height="140" rx="36" fill="url(#logo-bg-grad)" />
+    <rect x="0" y="0" width="140" height="140" rx="36" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.22" fill="none" />
+    
+    <!-- Paper Sheet (Width: 74, Height: 98) -->
+    <g filter="url(#logo-shadow)" transform="translate(33, 21)">
+      <!-- Base Paper with Folded Corner -->
+      <path 
+        d="M 8 0 
+           L 54 0 
+           L 74 20 
+           L 74 90 
+           A 8 8 0 0 1 66 98 
+           L 8 98 
+           A 8 8 0 0 1 0 90 
+           L 0 8 
+           A 8 8 0 0 1 8 0 Z" 
+        fill="url(#logo-paper-grad)" 
+      />
+
+      <!-- Folded Flap -->
+      <path 
+        d="M 54 0 
+           L 54 14 
+           A 6 6 0 0 0 60 20 
+           L 74 20 Z" 
+        fill="url(#logo-fold-grad)" 
+      />
+
+      <!-- Micro Document Lines -->
+      <rect x="10" y="12" width="14" height="14" rx="4" fill="#10B981" />
+      <rect x="28" y="14" width="22" height="4" rx="2" fill="#0F172A" />
+      <rect x="28" y="21" width="16" height="3" rx="1.5" fill="#10B981" />
+
+      <line x1="10" y1="34" x2="64" y2="34" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" />
+
+      <rect x="10" y="41" width="22" height="3" rx="1.5" fill="#059669" />
+      <rect x="10" y="47" width="54" height="2.5" rx="1.25" fill="#64748B" />
+      <rect x="10" y="52" width="46" height="2.5" rx="1.25" fill="#94A3B8" />
+
+      <rect x="10" y="60" width="18" height="3" rx="1.5" fill="#059669" />
+      <rect x="10" y="66" width="50" height="2.5" rx="1.25" fill="#64748B" />
+      <rect x="10" y="71" width="38" height="2.5" rx="1.25" fill="#94A3B8" />
+
+      <!-- Skill Pills -->
+      <rect x="10" y="79" width="14" height="4" rx="2" fill="#D1FAE5" />
+      <rect x="27" y="79" width="16" height="4" rx="2" fill="#D1FAE5" />
+      <rect x="46" y="79" width="14" height="4" rx="2" fill="#D1FAE5" />
+    </g>
+
+    <!-- ATS Checkmark Badge -->
+    <g filter="url(#logo-badge-shadow)">
+      <circle cx="108" cy="110" r="19" fill="#FFFFFF" />
+      <circle cx="108" cy="110" r="16" fill="url(#logo-badge-grad)" />
+      <path 
+        d="M 101 110 L 106 115 L 115 105" 
+        fill="none" 
+        stroke="#FFFFFF" 
+        stroke-width="3.2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+      />
+    </g>
+  </g>
+
+  <!-- WORDMARK (Right: x=185) -->
+  <g transform="translate(185, 0)">
+    <!-- Main Brand Name -->
+    <text x="0" y="92" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="800" font-size="46" letter-spacing="-1.5">
+      <tspan fill="#0F172A">Baixe Currículo</tspan>
+      <tspan dx="12" fill="#059669">Grátis</tspan>
+    </text>
+
+    <!-- Official Badge -->
+    <g transform="translate(565, 58)">
+      <rect x="0" y="0" width="76" height="26" rx="13" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.5" />
+      <circle cx="14" cy="13" r="3.5" fill="#059669" />
+      <text x="24" y="17" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="800" fill="#065F46" letter-spacing="1">OFICIAL</text>
+    </g>
+
+    <!-- Subtitle / Value Proposition -->
+    <text x="0" y="130" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="500" font-size="16" fill="#64748B" letter-spacing="-0.2">
+      Modelos Profissionais Editáveis <tspan fill="#059669" font-weight="700">•</tspan> 100% Gratuitos <tspan fill="#059669" font-weight="700">•</tspan> Compatíveis com ATS
+    </text>
+  </g>
+</svg>

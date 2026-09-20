@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bcg-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Paper Gradient -->
+    <linearGradient id="bcg-paper-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+
+    <!-- Folded Corner Gradient -->
+    <linearGradient id="bcg-fold-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBD5E1" />
+      <stop offset="50%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+
+    <!-- Seal Badge Gradient -->
+    <linearGradient id="bcg-badge-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="bcg-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#022C22" flood-opacity="0.38" />
+    </filter>
+
+    <filter id="bcg-badge-shadow" x="-20%" y="-20%" width="150%" height="150%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#064E3B" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background Squircle with Subtle Rim -->
+  <rect x="20" y="20" width="472" height="472" rx="112" fill="url(#bcg-bg-grad)" />
+  <rect x="20" y="20" width="472" height="472" rx="112" stroke="#FFFFFF" stroke-width="8" stroke-opacity="0.18" fill="none" />
+
+  <!-- Light Accent Flare in Corner -->
+  <circle cx="96" cy="96" r="140" fill="#34D399" opacity="0.25" filter="blur(30px)" />
+
+  <!-- Main Resume Sheet (White Paper with Folded Corner) -->
+  <g filter="url(#bcg-shadow)">
+    <!-- Paper Body Path (Folded Top-Right Corner) -->
+    <!-- Document: Width=256 (from 128 to 384), Height=336 (from 88 to 424) -->
+    <!-- Corner fold starts at (316, 88) and cuts to (384, 156) -->
+    <path 
+      d="M 152 88 
+         L 316 88 
+         L 384 156 
+         L 384 400 
+         A 24 24 0 0 1 360 424 
+         L 152 424 
+         A 24 24 0 0 1 128 400 
+         L 128 112 
+         A 24 24 0 0 1 152 88 Z" 
+      fill="url(#bcg-paper-grad)" 
+    />
+
+    <!-- Folded Corner Triangle -->
+    <path 
+      d="M 316 88 
+         L 316 136 
+         A 20 20 0 0 0 336 156 
+         L 384 156 Z" 
+      fill="url(#bcg-fold-grad)" 
+    />
+    <!-- Shadow beneath the folded corner -->
+    <path 
+      d="M 316 156 L 316 166 Q 316 156 326 156 Z" 
+      fill="#94A3B8" 
+      opacity="0.4" 
+    />
+
+    <!-- Document Content Details -->
+    <!-- Header Avatar / Insignia -->
+    <rect x="160" y="124" width="44" height="44" rx="12" fill="#10B981" />
+    <circle cx="182" cy="140" r="8" fill="#FFFFFF" />
+    <path d="M 168 160 C 168 153 174 150 182 150 C 190 150 196 153 196 160 Z" fill="#FFFFFF" />
+
+    <!-- Name & Title Lines in Header -->
+    <rect x="216" y="128" width="88" height="14" rx="7" fill="#0F172A" />
+    <rect x="216" y="150" width="60" height="10" rx="5" fill="#10B981" />
+
+    <!-- Divider -->
+    <line x1="160" y1="188" x2="352" y2="188" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Section 1: Experiência Profissional (Simulated Clean Lines) -->
+    <rect x="160" y="206" width="76" height="9" rx="4.5" fill="#059669" />
+    <rect x="160" y="226" width="192" height="8" rx="4" fill="#64748B" />
+    <rect x="160" y="242" width="176" height="7" rx="3.5" fill="#94A3B8" />
+    <rect x="160" y="257" width="144" height="7" rx="3.5" fill="#CBD5E1" />
+
+    <!-- Section 2: Formação / Habilidades -->
+    <rect x="160" y="282" width="64" height="9" rx="4.5" fill="#059669" />
+    <rect x="160" y="302" width="184" height="8" rx="4" fill="#64748B" />
+    <rect x="160" y="318" width="150" height="7" rx="3.5" fill="#94A3B8" />
+
+    <!-- Skills Badges in Document -->
+    <rect x="160" y="342" width="42" height="12" rx="6" fill="#D1FAE5" />
+    <rect x="208" y="342" width="48" height="12" rx="6" fill="#D1FAE5" />
+    <rect x="262" y="342" width="38" height="12" rx="6" fill="#D1FAE5" />
+
+    <!-- Footer Bar -->
+    <rect x="160" y="380" width="110" height="6" rx="3" fill="#E2E8F0" />
+  </g>
+
+  <!-- ATS Verified Seal / Checkmark Badge in Bottom Right -->
+  <g filter="url(#bcg-badge-shadow)">
+    <!-- Outer White Ring -->
+    <circle cx="372" cy="380" r="56" fill="#FFFFFF" />
+    <!-- Gradient Fill Circle -->
+    <circle cx="372" cy="380" r="48" fill="url(#bcg-badge-grad)" />
+    <!-- Inner Highlighting Ring -->
+    <circle cx="372" cy="380" r="48" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.3" fill="none" />
+    
+    <!-- Bold Checkmark -->
+    <path 
+      d="M 352 380 L 366 394 L 394 364" 
+      fill="none" 
+      stroke="#FFFFFF" 
+      stroke-width="9" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+  </g>
+</svg>
